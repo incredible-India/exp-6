@@ -1,0 +1,201 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 10vh;
+    border: 0.125rem solid rgb(26, 26, 31);
+    text-align: center;
+    margin-bottom: 0.625em;
+    background-color: rgb(211, 192, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.0;
+    font-size: 0.95rem; 
+    padding: 1rem;
+}
+.h3{
+    background-color: rgb(195, 111, 123);
+}
+
+.section{
+    background-color: aliceblue;
+    background: rgb(242, 241, 237);
+    height: 88vh;
+    /* border: 2px solid rgb(26, 26, 31); */
+    
+}
+.section .sec1{
+    border: 0.125rem solid rgb(26, 26, 31);
+    margin-right: 0.125em;
+    margin: left 0.125em; ;
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.0rem;
+    
+}
+ .section .sec2 {
+    border: 0.125rem solid rgb(26, 26, 31); 
+    margin-left: 0.125em;
+    float: right;
+    width: 74.5%; /* You can adjust this width as needed */
+    height: 100%; 
+    background-image: url('chemistry\ lab.png');
+    background-size: cover;
+    
+    }  
+.section .sec2 .img{
+    display:flexbox;
+    width: 5%;
+    height: 7%;
+    text-align: center;
+
+} 
+
+/* Style the "Add" buttons */
+.button {
+    background-color: rgb(171, 171, 192); /* Set the background color to blue */
+    color: rgb(34, 28, 28); /* Set the text color to white */
+    padding: 10px 20px; /* Add padding to make the button bigger */
+    border: gray; /* Remove the button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-radius: 5px; /* Add some border-radius for rounded corners */
+    font-size: 16px; /* Set the font size */
+    box-shadow: 5px 5px 5px rgb(98, 100, 99);
+  }
+  
+  /* Style the buttons on hover (optional) */
+  .button:hover {
+    background-color: rgb(148, 148, 196); /* Change the background color on hover */
+  }
+ /* Add margin to push the container down */
+.sec2 {
+    margin-top: 20px; /* Adjust the value as needed */
+    position: relative; /* Set the position to relative */
+  }
+  
+  /* Set the width and height of images to occupy 60% and position them */
+  .flaskA,
+  .flaskB,
+  .flaskC,
+  .flaskD,
+  .PotassiumIodide,
+  .sulphuricAcid,
+  .water,
+  .starch,
+  .sodium,
+  .hydrogen
+  .beaker5ml {
+    width: 5%;
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 7%; /* Ensure images don't exceed their original width */
+    position: absolute; /* Set the position to absolute */
+    top: 60%; /* Position images 60% from the top of the .sec2 container */
+    left: 5%; /* Center the images horizontally within .sec2 */
+    transform: translateX(-50%) /* Center the images both horizontally and vertically */
+    
+  }
+ #flaskA{
+    position: absolute;
+    top: 65%;
+    right: 90%;
+   width: 8%;}
+ #flaskB{
+    position: absolute;
+    top: 65%;
+    right: 85%;
+    width: 8%;}  
+ #flaskC{
+    position: absolute;
+    top: 65%;
+    right: 80%;
+    width: 8%;} 
+ #flaskD{
+    position: absolute;
+    top: 65%;
+    right: 75%;
+    width: 8%;
+ } 
+ #sulphuricAcid{
+    position: absolute;
+    top: 65%;
+    right: 35%;
+    width: 6%;
+ }
+ #water{
+    position: absolute;
+    top: 65%;
+    right: 25%;
+    width: 15%;
+ }   
+#starch{
+    position: absolute;
+    top: 65%;
+    right: 17%;
+    width: 11%;
+}
+#sodium{
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    width: 6%;
+}
+#hydrogen{
+    position: absolute;
+    top: 65%;
+    right: 8%;
+    width: 6%;
+}
+#PotassiumIodide{
+    position: absolute;
+    top: 65%;
+   right: 1%; 
+     width: 6%;} 
+#beaker5ml{
+    position: absolute;
+    top: 65%;
+    right: 70%;
+    width: 3%;
+
+}
+#beaker10ml{
+    position: absolute;
+    top: 65%;
+    right: 67%;
+    width: 3%;
+}
+
+#beaker5ml2{
+    position: absolute;
+    top: 65%;
+    right: 61%;
+    width: 3%;
+}
+#beaker85ml{
+    position: absolute;
+    top: 65%;
+    right: 64%;
+    width: 3%;
+}
+
+#beaker10ml2{
+    position: absolute;
+    top: 65%;
+    right: 58%;
+    width: 3%;
+}
+#beaker5ml3{
+    position: absolute;
+    top: 65%;
+    right: 55%;
+    width: 3%;
+}
